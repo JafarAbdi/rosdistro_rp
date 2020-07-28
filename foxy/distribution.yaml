@@ -1,0 +1,25 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 141: http://ros.org/reps/rep-0141.html
+---
+release_platforms:
+  ubuntu:
+  - focal
+repositories:
+  urdfdom:
+    doc:
+      type: git
+      url: https://github.com/ros2/urdfdom.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2/urdfdom.git
+      version: 2.3.2
+    source:
+      type: git
+      url: https://github.com/ros2/urdfdom.git
+      version: ros2
+    status: developed
+type: distribution
+version: 1
